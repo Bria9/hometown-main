@@ -1,0 +1,149 @@
+@import url(reset.css);
+
+body{
+    margin: 0;
+}
+
+main{
+    color: #ffffff;
+}
+
+.visit-us{
+   
+    background-image: url("/img/Louisville_Skyline.jpg");
+    background-size: cover;
+    /* background-position-y: 2rem; */
+    background-repeat: no-repeat;
+   
+    /* background-position-x: .2rem; */
+    width: 100%;
+    height: 17.5rem;
+    padding: 2rem;
+    
+    border-radius: 10px 10px 0 0;
+   
+    background-color: #a8d4fb;
+    
+    text-shadow: 0 0 3px #000000;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.activities{
+    background-color: #dae0e6;
+    width: 100%;
+    height: 100%;
+  
+   background-color: #11100e;;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 20px;
+
+    
+   
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.4rem;
+    text-align: center;
+}
+h4{
+    font-size: 1.2rem;
+    /* min-width: 12rem; */
+   
+
+}
+p{
+    min-width: 10rem;
+    font-size: .8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow:  0 0px 9px 0  #e55717;
+    margin: 8% auto;
+  
+
+}
+/* 
+.transparent{
+    background: linear-gradient(rgb(43, 22, 49, .4),  rgb(229, 87, 23, .5));
+    width: 16rem;
+    height: 20rem;
+    border-radius: 10%;
+    box-shadow:  0 0px 9px 0  #e55717;
+    text-align: center;
+    padding: 0 2rem;
+ 
+} */
+
+.guide-card{
+ width: 100%;
+ background-color: #25142e;
+ height: 17.5rem;
+
+}
+
+.card{
+    background-color: #fff;
+   
+    min-width: 33rem;
+    height: 15rem;
+    border-bottom: .4rem solid green;
+}
+
+#profile{
+    width:14.5rem;
+    
+    
+}
+
+
+.flex{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+@media only screen and (max-width: 500px) {
+ 
+
+    .feature-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 20px;     
+    }
+
+    .activities{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .visit-us{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+    }
+}
