@@ -59,8 +59,8 @@ p {
 }
 
 .img {
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   border: 3px solid white;
   box-shadow: 0 0px 9px 0 #e55717;
@@ -82,6 +82,7 @@ p {
   height: 15rem;
   border-bottom: 0.4rem solid #d1500c;
   border-radius: .5rem;
+  background-color: #f28640;
 }
 
 .profile-container {
@@ -124,7 +125,7 @@ p {
   justify-content: flex-end;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .feature-container {
     display: flex;
     flex-direction: column;

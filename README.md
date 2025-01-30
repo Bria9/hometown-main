@@ -1,1 +1,1 @@
-# scrimba-hometown
+Responsive page layout with the theme of city tour guide information.
